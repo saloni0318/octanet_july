@@ -1,0 +1,401 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    height: 60px;
+    
+}
+nav .right{
+    display: flex;
+  
+    margin-top: 11px;
+}
+.left h4{
+    font-size: 22px;
+padding: 16px;
+font-weight: 50px;
+}
+nav .right svg{
+    margin-top: 13px;
+    margin-left: 203px;
+}
+nav .left{
+    display: flex;
+}
+.left img{
+ 
+ margin-top: -11px; width:50px;
+ }
+.left p{
+ margin-inline:22px ;   
+ margin-top: 21px;
+ font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.right p{
+    margin-inline:22px ;    
+    padding: 10px; 
+    font-family:UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif ;
+   }
+   .right i{
+    margin-top: 10px;
+    font-size: 22px;
+   }
+   .right button{
+    width: 80px;
+    height: 36px;
+    background-color: #fff;
+ border-radius: 22px;
+color: black;
+font-weight: 600;
+border: none;
+margin-top: 2px;
+}
+.right button:hover{
+    background-color: transparent;
+    color: white;
+    border:2px solid white ;
+}
+.right p:hover{
+    cursor: pointer;
+    background-color: rgb(96, 94, 94);
+    border-radius: 22px;
+ display: block;
+height: 15px;
+
+}
+.left p:hover{
+    cursor: pointer;
+    background-color: rgb(96, 94, 94);
+    border-radius: 15px;
+ display: block;
+width: 60;
+height: 29px;
+
+}
+.card{
+ background-image: url(https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,w_1920,h_805/v1613521692/assets/d9/ce6c00-32b0-4b93-9f0d-6f927d93da08/original/Rider_Home_bg_desktop2x.png); 
+ background-repeat: no-repeat;
+ background-size: cover;
+ height: 90vh;
+
+
+
+
+}
+.main{ 
+    width: 600px;
+    height: 600px;
+    margin-left: 70px;
+    background-color: white;
+    padding: 40px;
+  
+
+}
+.main .icon{
+   display: flex;
+justify-content: center;
+border-bottom: 1px solid rgb(224, 223, 233);}
+
+.main .icon .car{
+font-size: 19px;
+    margin-inline: 14px;
+    margin-top: 31px;
+    border-bottom: 3px solid black;
+    padding: 30px;
+}
+
+.icon .car img{
+    width: 12%;
+}
+.icon .car i{
+ font-size: 12px;
+justify-content: center;}
+.card h1{
+    padding: 20px;
+  margin-left: 55px;
+  font-size: 44px;
+  margin-top: 30px;
+}
+.card input{
+    width: 450px;
+    height: 25px;
+    padding: 10px;
+    background-color:rgb(235, 232, 232);
+    padding: 11px;
+    border: none;
+    margin-left: 38px;
+    margin-top: 8px;
+    font-size: 20px;
+  
+}
+ 
+.card .btn{
+   margin-left: 33px;
+   margin-top: 40px; 
+}
+.card .btn button{
+    margin-top: 40px;
+    width: 200px;
+    height: 40px;
+    background-color: rgb(183, 180, 180);
+    color: rgb(9, 9, 9);
+    border: none;
+    border-radius:6px ;
+margin-inline:18px ;
+}
+
+.card .btn .fr{
+    width: 170px;
+    height: 36px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius:4px ;
+margin-inline:18px ;
+}
+.head h1{
+    padding: 33px;
+    font-size: 43px;
+}
+   .mid{
+    background-image: url("https://assets.langhamhotels.com/is/image/langhamhotelsstage/tlnyc-discover-new-york-empire-state-building:Large?wid=1350&hei=900");
+    background-repeat: no-repeat;
+    background-size: cover;
+   height: 50vh;
+  
+   
+
+   }
+   .mid h1 {
+  margin-left:170px;
+padding-top: 60px ;
+font-size: 45px;
+
+   }
+   .mid p{
+   margin-top: 30px;
+    margin-left:170px;
+font-size: 20px;
+   }
+   .mid button{
+   margin-top: 40px;
+   margin-left:170px;
+   width: 150px;
+    height: 36px;
+   background-color: rgb(12, 12, 12);
+   color: white;
+   border: none;
+   border-radius:4px ;
+
+font-size: 20px;
+    
+   }
+.head h1{
+    padding: 33px;
+    margin-top: 55px;
+    font-size: 40px;
+    margin-left: 155px;}
+.ride .uber{
+    display:flex;
+    justify-content: center;
+  
+    margin-left: 25px;
+}
+.uber .auto{
+    display: flex;
+    margin-inline: 18px;
+    width: 550px;
+  margin-top: 55px;
+ 
+}
+
+.uber .auto img{
+    margin-inline: 18px;
+    width: 55%;
+}
+.uber .auto i{
+    display: flex;
+}
+.uber .auto p{
+    font-size: 20px;
+    color: rgb(122, 123, 123);
+}
+
+.head1{
+    margin-top: 44px;
+    font-size: 25px;
+    margin-left:170px;
+}
+
+.safe{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 33px;
+    margin-left:110px;
+}
+.safe img{
+    width: 600px;
+height: 400px;
+display: flex;
+justify-content: center;
+margin-inline: 18px;
+
+
+}
+.safe h3{
+    margin-top: 15px;
+   color: #464545;
+   font-size: 21px;
+}
+.safe p{color: #646363;
+font-size: 19px;
+margin-top: 12px}
+.safe .last {
+    margin-top: 15px;
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+   justify-content: space-around;
+   margin-left: -60px;
+   color: #595757
+
+}
+.safe .last1{
+    margin-top: 15px;
+    text-decoration: underline;
+    display: flex;
+}
+.foot {
+    display: flex;
+    margin-top: 140px;
+    margin-left: 150px;
+    font-size: 20px;
+}
+.foot .about h3{
+margin-top: 22px;
+font-weight: lighter;
+
+}
+.foot .about p{
+    font-weight: lighter;
+    color: #646363;
+}
+.foot .about a{
+    color: #646363;
+    font-size: 18px;
+}
+
+.app{margin-top: 90px;
+    background-color: #f6f6f6;
+    height: 400px
+}
+.app h1{
+  padding-top: 60px;
+    margin-left: 140px;
+    font-size: 44px;
+}
+.app .down{
+    display: flex;
+    margin-left: 140px;
+ justify-content: center;
+ justify-content: space-around;
+ 
+}
+.app .down .clas {margin-top: 30px;
+    background-color:white;
+    width: 500px;
+    display: flex;
+    padding: 30px;
+}
+.app .down .clas h2{
+    padding: 30px;
+}
+.footall{
+    background-color: #070707;
+    height: 120vh;
+   
+}
+.footall .all{
+    display: flex;
+    margin-left: 90px;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 50px;
+    color: white;
+    font-size: 18px;
+}
+.footall .las { padding: 30px;
+    margin-top: 60px;
+    margin-left: 90px;
+    justify-content: center;
+    justify-content: space-around;
+    color: white;
+
+}
+.footall .las p{
+    margin-top: 40px;
+    margin-left: 90px;
+    justify-content: center;
+    justify-content: space-around;
+    color: white;
+    font-size: 19px;
+}
+.footall .las a{
+    font-size: 30px;
+text-decoration: none;
+color: white;}
+.icon1{
+    color: white;
+    margin-top: 40px;
+    margin-left: 160px;
+   
+   
+    display: flex;
+
+}
+.icon1 i{
+    padding: 30px;
+    font-size: 18px;
+}
+.icon1 .p{
+    color: white;
+    margin-left:70vh;
+    font-size: 16px;
+}
+.icon1 .p i{
+    font-size: 13px;
+}
+.play{ margin-left: 200px;
+    padding:35px;
+width: 200px;
+height: 40px;
+display: flex;
+justify-content: center;
+justify-content: space-around;
+}
+.end{
+    color: white;
+    margin-left: -110px;
+   display: flex;
+justify-content: center;
+justify-content: space-around;
+color: #a8a7a7;
+}
+.endit{
+    display: flex;
+    justify-content: center;
+  justify-content: space-around;
+
+}
+.endit p{
+    padding-left: 20px;
+    color: #a8a7a7;
+}

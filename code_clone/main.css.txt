@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <nav>
+        <div class="left">
+            <h4>Uber</h4>
+            <p>Company</p>
+            <p>Safety</p>
+            <p>Help</p>
+        </div>
+        <div class="right"> <svg class="svg"    width="16" height="16" viewBox="0 0 24 24" fill="none">
+            <title>Globe</title>
+            <path
+                d="M12 1C5.9 1 1 5.9 1 12s4.9 11 11 11 11-4.9 11-11S18.1 1 12 1Zm8 11c0 .7-.1 1.4-.3 2-.6-1.5-1.6-3.1-3-4.7l1.8-1.8c1 1.3 1.5 2.8 1.5 4.5ZM6.5 6.5c1.3 0 3.6.8 6 2.9l-3.2 3.2C7.1 9.8 6.5 7.5 6.5 6.5Zm8.1 5c2.3 2.7 2.9 5 2.9 6-1.3 0-3.6-.8-6-2.9l3.1-3.1Zm1.9-6.1-1.9 1.9c-1.6-1.4-3.2-2.4-4.7-3 .7-.2 1.3-.3 2-.3 1.8 0 3.3.5 4.6 1.4ZM4 12c0-.7.1-1.4.3-2 .6 1.5 1.6 3.1 3 4.7l-1.8 1.8C4.5 15.2 4 13.7 4 12Zm3.5 6.6 1.9-1.9c1.6 1.4 3.2 2.4 4.7 3-.7.2-1.3.3-2 .3-1.8 0-3.3-.5-4.6-1.4Z"
+                fill="currentColor"></path>
+        </svg>
+            <p> EN</p>
+            <i class="fa-solid fa-grip"></i>
+            <p>Products</p>
+            <p>Login</p>
+            <button>Sign up </button>
+        </div>
+    </nav>
+    <div class="card">
+        <div class="main">
+            <div class="icon">
+                <div class="car">
+                    <i class="fa-solid fa-car"></i>
+                    <p>Ride</p>
+                </div>
+
+                <div class="car">
+                    <i class="fa-solid fa-signal"></i>
+                    <p>Drive or <br>delivery</p>
+                </div>
+
+                <div class="car">
+                    <img src="keys_car_filled.svg" alt="">
+                    <p>Rent your fleet
+                    </p>
+                </div>
+            </div>
+
+            <h1>Request a ride now</h1>
+            <input text="text" placeholder="Enter the pickup location">
+            <input text="text" placeholder="Enter Destination">
+            <div class="btn">
+                <button class="fr">Request Now </button>
+                <button>Schedule for later </button>
+            </div>
+        </div>
+    </div>
+    <div class="mid">
+        <h1>The Uber you know, reimagined for business</h1>
+        <p>A platform for managing global rides and meals, and local deliveries, for companies of any size. </p>
+        <button class="mid1">Get started</button>
+    </div>
+    <div class="head">
+        <h1>Ride with Uber</h1>
+    </div>
+    <div class="ride">
+        <div class="uber">
+            <div class="auto">
+                <img src="https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,w_105,h_105/v1649914471/assets/89/8e4239-5e7d-4de7-bf71-00cc32d468db/original/Auto-150X150p4x.png"
+                    alt="">
+
+                <div>
+                    <h2>Uber Auto </h2>
+                    <p>Get affordable Uber Auto rides with no haggling. Request Uber Auto and <br>ride comfortably
+                        around
+                        your&nbsp;city.</p>
+
+                </div>
+            </div>
+
+
+
+            <div class="auto">
+                <img src="https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,w_105,h_105/v1649914539/assets/86/82f8b3-e2e6-45f8-a8f7-fdc511f709e0/original/Moto-150X150p4x.png"
+                    alt="">
+                <div>
+                    <h2>Uber Moto </h2>
+                    <p>Get affordable bike rides at your doorstep. Skip the crowd and zip through traffic with Uber
+                        Moto.</p>
+                </div>
+            </div>
+        </div>
+        <div class="uber">
+
+
+            <div class="auto">
+                <img src="https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,w_105,h_105/v1630531077/assets/38/494083-cc23-4cf7-801c-0deed7d9ca55/original/uber-hourly.png"
+                    alt="">
+                <div>
+                    <h2> Uber Rentals</h2>
+                    <p>Book Rentals to save time with one car and driver for your multi-stop&nbsp;trips.</p>
+
+                </div>
+            </div>
+            <div class="auto">
+                <img src="https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,w_105,h_105/v1649914597/assets/f7/7f583f-447a-4cf7-8da6-6ad254f0a66b/original/Intercity-150X150p4x.png"
+                    alt="">
+                <div>
+                    <h2>Uber Intercity</h2>
+                    <p>Book Intercity to head outstation anytime in convenient and affordable&nbsp;cars.</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="head1">
+        <h2>Focused on safety, wherever you go</h2>
+    </div>
+    <div class="safe">
+        <div class="img">
+            <img src="Safety_Home_Img2x.png" alt="">
+            <h3>Our commitment to your safety</h3>
+            <p>
+                With every safety feature and every standard in our Community Guidelines,<br> we're committed to
+                helping to create a safe environment for our users.
+            </p>
+            <div class="last">
+                <p> Read about our Community Guidelines</p>
+                <p>See all safety features</p>
+            </div>
+        </div>
+
+        <div class="img">
+            <img src="Cities_Home_Img2x.png" alt="">
+            <h3>Setting 10,000+ cities in motion</h3>
+            <p>
+                The app is available in thousands of cities worldwide, so you can request a ride even<br>
+                when you’re far from home.
+            </p>
+            <div class="last1">
+                <p> View all cities</p>
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="foot">
+        <div class="about">
+            <img src="person1.svg" alt=""><br>
+            <h3>About us
+            </h3><br>
+            <p>
+                Find out how we started, what drives us, and how we’re reimagining how the world moves.
+            </p><br><a href="#">Learn more about Uber</a>
+        </div>
+        <div class="about"><img src="document-outlined.svg" alt=""><br>
+            <h3>Newsroom</h3><br>
+            <p>
+                See announcements about our latest releases, initiatives, and partnerships.
+            </p><br><a href="#">Go to Newsroom</a>
+        </div>
+        <div class="about"><img src="home-outlined.svg" alt=""><br>
+            <h3>Global citizenship</h3><br>
+            <p>
+                Read about our commitment to making a positive impact in the cities we serve.
+            </p><br><a href="#">See our Partnerships.</a>
+        </div>
+
+    </div>
+
+    <footer>
+        <div class="app">
+            <h1>There’s more to love in the apps</h1>
+            <div class="down">
+                <div class="clas">
+                    <img src="https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,w_105,h_105/v1618459302/assets/8e/cbcd2e-e7f1-4bd1-ae4e-5343b99ff22f/original/Driver-App-logo.png"
+                        alt="">
+                    <h2>Download the Driver app</h2>
+                </div>
+                <div class="clas">
+                    <img src="https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,w_105,h_105/v1618459257/assets/13/6bfdbd-cdb6-4221-92c1-cab1feaa39f3/original/Rider-App-logo.png"
+                        alt="">
+                    <h2>Download the Uber app</h2>
+                </div>
+            </div>
+        </div>
+        <div class="footall">
+            <div class="las"><p><a href="https://www.uber.com/in/en/" target="_self">Uber</a> </p>
+                <p>Visit Help Center</p></div>
+            <div class="all">
+               
+                <div class="las1">
+                   
+                    <h3>Company
+                    </h3><br>
+                    <p> About us
+
+                    </p><br>
+                    <p> Our offerings
+
+                    </p><br>
+                    <p> Newsroom
+
+                    </p><br>
+                    <p> Investors
+
+                    </p><br>
+                    <p> Blog
+
+                    </p><br>
+                    <p>Careers
+
+                    </p><br>
+                    <p> AI
+
+                    </p><br>
+                    <p>Gift card</p><br>
+                </div>
+
+                <div class="2">
+                    <h3>Products</h3><br>
+                    <p>Ride</p><br>
+                    <p>Drive</p><br>
+                    <p>Deliver</p><br>
+                    <p>Eat</p><br>
+                    <p>Uber for Business</p><br>
+                    <p>Uber Freight</p><br>
+                </div>
+
+                <div class="3">
+                    <h3>Global citizenship</h3><br>
+                    <p>Safety
+
+                    </p><br>
+                    <p>Diversity and Inclusion
+
+                    </p><br>
+                    <p>Sustainability
+
+                    </p><br>
+
+                </div>
+
+                <div class="3">
+                    <h3>Travel</h3><br>
+                    <p>Airports
+
+                    </p><br>
+                    <p> Cities
+
+                    </p><br>
+
+
+                </div>
+
+
+
+            </div>
+            <div class="icon1">
+                <i class="fa-brands fa-square-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-instagram"></i>
+           
+            <div class="p">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                    <title>Globe</title>
+                    <path
+                        d="M12 1C5.9 1 1 5.9 1 12s4.9 11 11 11 11-4.9 11-11S18.1 1 12 1Zm8 11c0 .7-.1 1.4-.3 2-.6-1.5-1.6-3.1-3-4.7l1.8-1.8c1 1.3 1.5 2.8 1.5 4.5ZM6.5 6.5c1.3 0 3.6.8 6 2.9l-3.2 3.2C7.1 9.8 6.5 7.5 6.5 6.5Zm8.1 5c2.3 2.7 2.9 5 2.9 6-1.3 0-3.6-.8-6-2.9l3.1-3.1Zm1.9-6.1-1.9 1.9c-1.6-1.4-3.2-2.4-4.7-3 .7-.2 1.3-.3 2-.3 1.8 0 3.3.5 4.6 1.4ZM4 12c0-.7.1-1.4.3-2 .6 1.5 1.6 3.1 3 4.7l-1.8 1.8C4.5 15.2 4 13.7 4 12Zm3.5 6.6 1.9-1.9c1.6 1.4 3.2 2.4 4.7 3-.7.2-1.3.3-2 .3-1.8 0-3.3-.5-4.6-1.4Z"
+                        fill="currentColor"></path>
+                </svg>
+                English
+                <i class="fa-solid fa-location-dot">   Bhopal</i>
+            </div>
+        </div>
+            <div class="play">
+                <img
+                    src="https://d1a3f4spazzrp4.cloudfront.net/uber-com/1.3.8/d1a3f4spazzrp4.cloudfront.net/illustrations/app-store-google-4d63c31a3e.svg"
+                    alt="">
+                <img src="https://d1a3f4spazzrp4.cloudfront.net/uber-com/1.3.8/d1a3f4spazzrp4.cloudfront.net/illustrations/app-store-apple-f1f919205b.svg"
+                    alt="">
+            </div>
+          
+
+            <div class="end">
+                <p>© 2023 Uber Technologies Inc.</p>
+           
+
+
+            <div class="endit">
+                <p>Privacy
+
+                </p>
+                <p> Accessibility</p>
+
+                <p>Term</p>
+           
+            </div>
+        </div>
+        </div>
+    </footer>
+</body>
+
+</html>
