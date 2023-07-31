@@ -1,0 +1,54 @@
+*{
+    padding: 0%;
+    margin: 0%;
+   
+
+}
+
+ input{
+    width: 270px;
+    padding: 8px;
+    border: solid 2px;
+    border-radius: 9px;
+    outline: none;
+ }
+ button{
+   width: 60px;
+   height: 30px;
+  background-color: black;
+  color: white;
+   border-radius: 15px;
+   cursor: pointer;
+   font-size: 15px;
+   border:none;
+ }
+ul li{
+   list-style: none;
+   user-select: none;
+}
+.container{
+width: 360px;
+padding: 33px;
+text-align: center;
+margin-left: 35%;
+margin-top: 13%;
+background: linear-gradient(135deg,#91b1e1,#a0acc2);
+border: solid #91b1e1;
+border-radius: 5px;
+
+}
+
+.text li{
+   position: relative;
+  color: white;
+   font-size: 19px;
+   padding-top: 15px;
+  left:-90px;
+ 
+}
+.text li i{
+   position:absolute;
+ right:19px;
+   cursor: pointer;
+
+}

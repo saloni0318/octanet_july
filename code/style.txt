@@ -1,0 +1,114 @@
+* {
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background: rgb(215, 241, 241);
+    border-radius: 7px;
+    margin-top: 0px;
+}
+
+.navbar {
+
+    display: flex;
+   justify-content: space-between;
+
+
+}
+
+.navbar li {
+    list-style: none;
+    padding: 0px 20px;
+    position: relative;
+    float: left;
+    text-align:center;
+
+}
+
+.logo {
+    width: 50px;
+    border-radius: 9px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    color: rgb(3, 118, 80);
+}
+
+.navbar li a.active::after,
+.navbar li a:hover::after {
+    content: "";
+    width: 20px;
+    height: 2px;
+    background-color: rgb(2, 79, 53);
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+
+#main {
+
+    background-image: url("back.jpg");
+    height: 90vh;
+    width: 100%;
+    float: right;
+    background-size: cover;
+   
+
+}
+
+.text {
+    margin-top: 200px;
+    margin-left: 150px;
+   font-size: larger;
+   font-family: sans-serif;
+    padding-top: 20px;
+    justify-content: space-between;
+}
+#main h1{
+    color: rgb(8, 240, 124);
+    font-size: 45px;
+}
+#main h4{
+    font-size: 20px;
+}
+#main p{
+    font-size: 15px;
+}
+#main button{ 
+    display:block;
+    margin-left: 100px;
+    font-size: 20px;
+    background-color: transparent;
+    border-radius: 30px;
+
+}
+#main button:hover{
+    background-color: aquamarine;
+    color: beige ;
+    box-shadow: 6px 6px 6px black;
+}
+.foot{
+background-color: rgb(241, 220, 235);
+height: 50%;
+}
+
+
+.foot p{ display: inline;
+    font-size: 18px;
+ 
+   
+}

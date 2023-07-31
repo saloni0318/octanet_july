@@ -1,0 +1,22 @@
+let input = document.getElementById('inpt');
+let text = document.querySelector(".text");
+
+function Plus() {
+    if (input.value === "") {
+        alert("Please enter your task");
+    } else {
+        let li = document.createElement("li");
+        li.innerHTML = input.value ;
+        text.appendChild(li);
+        let trashIcon = document.createElement("i");
+        trashIcon.classList.add("fa-solid", "fa-trash");
+        
+        li.appendChild(trashIcon);
+        li.querySelector("i").addEventListener("click",remove);
+        function remove(){
+            li.remove()
+        }
+      }
+    input.value="";
+     
+}

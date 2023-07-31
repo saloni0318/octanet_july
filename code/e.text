@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E COMMERCE</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="header">
+        <a href="#"><img src="other.jpg" class="logo"></a>
+        
+      <nav class="navbar">
+      
+        <li> <a  class="active" href="#">HOME</a></li>
+        <li> <a href="#">SHOP</a></li>
+        <li> <a href="#">CONTACT</a></li>
+        <li> <a href="#">ABOUT US</a></li>
+        <li> <a href="#"><i class="fa-solid fa-bag-shopping"></i></a></li>
+      </nav>
+    </section>
+    <section id="main">
+        <div class="text">
+            <h4 >FIT YOUR STYLE</h4><br>
+            <h1>CRAZY DEALS<BR> SPLASH INTO SAVINGS</h1><br>
+            <p>TREAT YOURSELF TO THESE STYLE STEALS!</p><br>
+            <button>shop now</button>
+        </div>
+
+    </section>
+   <footer class="foot" style="text-align: center";>
+     <h2><strong>Contacts</strong></h2><br>
+        <i class="fa-sharp fa-solid fa-location-dot"></i>
+                <p><strong>ADDRESS:</strong> Lorem, ipsum Lorem, ipsum dolor.</p>&nbsp;
+        <i class="fa-solid fa-phone"></i> <p><strong>PHONE:</strong> Lorem ipsum dolor sit.</p>
+    <br><br>
+
+    <p>FOLLOW US</p>
+    <div class="icons">
+        
+        <i class="fa-brands fa-facebook"></i>  
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-pinterest"></i>  </div>
+   </footer>
+
+    </section>
+</body>
+</html>
